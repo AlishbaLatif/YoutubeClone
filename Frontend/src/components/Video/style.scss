@@ -1,0 +1,46 @@
+@import "../base.scss";
+
+.video{
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.videoTop{
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.videoTop>span{
+    position:absolute;
+    bottom: 0.3rem;
+    right: 0.3rem;
+    background-color: black;
+    padding: 0.2rem;
+}
+.video>.videoTop>img{
+    width: 100%;
+}
+.videoTitle{
+    margin-bottom: 0.1rem;
+    color: white;
+}
+.videoDetails{
+    display: flex;
+    align-items: center;
+}
+.videoChannel{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.videoChannel>img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.videoChannel>p{
+    margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+$text-color:#b1bdb4;
+
+$black-primary:#16181b;
+$black-secondary:#1d1a1a;
+$black-color:#4c4c4c;
+
+$breakpoint-medium:1224px;
+$breakpoint-small:520px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:$black-primary ;
+    background-attachment: fixed;
+    color:$text-color;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1px;
+    
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
